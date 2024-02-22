@@ -1,0 +1,55 @@
+{
+  "sortedMiddleware": [],
+  "middleware": {},
+  "functions": {
+    "/api/chat/title": {
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/chat/title.js"
+      ],
+      "name": "pages/api/chat/title",
+      "page": "/api/chat/title",
+      "matchers": [
+        {
+          "regexp": "^/api/chat/title$",
+          "originalSource": "/api/chat/title"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/user/planInfo": {
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/user/planInfo.js"
+      ],
+      "name": "pages/api/user/planInfo",
+      "page": "/api/user/planInfo",
+      "matchers": [
+        {
+          "regexp": "^/api/user/planInfo$",
+          "originalSource": "/api/user/planInfo"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/chat/completion": {
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/chat/completion.js"
+      ],
+      "name": "pages/api/chat/completion",
+      "page": "/api/chat/completion",
+      "matchers": [
+        {
+          "regexp": "^/api/chat/completion$",
+          "originalSource": "/api/chat/completion"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "version": 2
+}
