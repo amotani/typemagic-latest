@@ -1,14 +1,9 @@
 {
-  "/api/chat/title": "pages/api/chat/title.js",
-  "/api/user/planInfo": "pages/api/user/planInfo.js",
-  "/api/chat/completion": "pages/api/chat/completion.js",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/chat": "pages/chat.js",
-  "/api/magic/searchKey": "pages/api/magic/searchKey.js",
-  "/api/magic/match": "pages/api/magic/match.js",
-  "/api/magic/recommend": "pages/api/magic/recommend.js",
-  "/api/magic/popularAgents": "pages/api/magic/popularAgents.js"
+  "/create": "pages/create.js",
+  "/api/magic/popularAgents": "pages/api/magic/popularAgents.js",
+  "/plans": "pages/plans.js"
 }
